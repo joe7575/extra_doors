@@ -33,7 +33,10 @@ Dependencies
 ----------------------
 
 Doors Mod (required)
-  https://github.com/minetest/minetest_game/doors
+  - https://github.com/minetest/minetest_game/doors
+
+Techage (optional)
+  - https://github.com/joe7575/techage
 
 Installation
 ----------------------
