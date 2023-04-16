@@ -1,5 +1,8 @@
 Extra Doors Mod v2.0
-By Leslie Krause
+====================
+
+**By Leslie Krause**
+
 
 Repository
 ----------------------
