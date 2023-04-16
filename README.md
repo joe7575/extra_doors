@@ -1,4 +1,4 @@
-Extra Doors Mod v2.0
+Extra Doors Mod v2.1
 ====================
 
 **By Leslie Krause**
