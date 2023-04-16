@@ -212,7 +212,7 @@ doors.register( "door_dungeon2", {
 } )
 
 doors.register( "door_steelpanel1", {
-	tiles = { { name = "doors_door_steelpanel.png", backface_culling = true } },
+	tiles = { { name = "doors_door_steelpanel1.png", backface_culling = true } },
 	description = "Steel Colonial Door",
 	inventory_image = "doors_item_steelpanel1.png",
 	protected = true,
@@ -282,3 +282,33 @@ minetest.register_craft( {
 	recipe = "doors:door_castle2",
 	burntime = 12,
 } )
+
+if minetest.global_exists("techage") then
+	local Doors = {
+		"doors:door_woodpanel1",
+		"doors:door_woodglass1",
+		"doors:door_woodglass2",
+		"doors:door_japanese",
+		"doors:door_french",
+		"doors:door_cottage1",
+		"doors:door_cottage2",
+		"doors:door_barn1",
+		"doors:door_barn2",
+		"doors:door_castle1",
+		"doors:door_castle2",
+		"doors:door_mansion1",
+		"doors:door_mansion2",
+		"doors:door_dungeon1",
+		"doors:door_dungeon2",
+		"doors:door_steelpanel1",
+		"doors:door_steelglass1",
+		"doors:door_steelglass2",
+	}
+
+	for _, name in ipairs(Doors) do
+		for _, postfix in ipairs({"a", "b", "c", "d"}) do
+			techage.register_simple_nodes({name .. "_" .. postfix}, true)
+			techage.flylib.protect_door_from_being_opened(name .. "_" .. postfix)
+		end
+	end
+end

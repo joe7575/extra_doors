@@ -5,11 +5,10 @@ Repository
 ----------------------
 
 Browse source code:
-  https://bitbucket.org/sorcerykid/extra_doors
+  https://github.com/joe7575/extra_doors
 
 Download archive:
-  https://bitbucket.org/sorcerykid/extra_doors/get/master.zip
-  https://bitbucket.org/sorcerykid/extra_doors/get/master.tar.gz
+  https://github.com/joe7575/extra_doors/archive/refs/heads/master.zip
 
 Revision History
 ----------------------
@@ -20,6 +19,10 @@ Version 1.0b (12-Jan-2018)
 Version 2.0 (31-Aug-2018)
   - separated common routines into standalone mod
   - included support files for public release
+
+Version 2.1 (16-Apr-2023)
+  - Fix texture issue with door_steelpanel1
+  - Add techage support
 
 Compatability
 ----------------------
